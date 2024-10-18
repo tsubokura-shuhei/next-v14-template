@@ -2,6 +2,7 @@
 const nextConfig = {
   basePath: "",
   output: 'export',
+  trailingSlash: true,
   sassOptions: {
     prependData: '@import "sassHelpers/index.scss";',
   }
